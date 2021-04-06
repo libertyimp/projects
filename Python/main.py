@@ -2,6 +2,7 @@ import sys
 import os
 import random
 import math
+from info import *
 
 def main():
     os.system('clear')
