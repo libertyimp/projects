@@ -27,11 +27,29 @@ def gameInfo():
 
 
 # commands():
+def commands():
+    os.system('clear')
+    print ("--------------------------------------------------------------------------------------")
+    print ('''
+                     ___                                 _     
+                    |  _] ___  _ _ _  _ _ _  ___  _ _  _| | ___
+                    | [__/ . \| ' ' || ' ' |[_] || ' |/ . |[_-[
+                    `___/\___/|_|_|_||_|_|_|[___||_|_|\___|/__/
+ 
+    ''')
+    print ("--------------------------------------------------------------------------------------")
+    print ("* Attack(att) - Attack as you might guess will make your character attack the enemey")
+    print ("** Mana(ma)   - Mana will put you into the Mana menu so you can select a mana attack or ablity")
+    print ("* Block(bl)   - Block will allow the user to use one of their turns to block an incoming attack")
+    print ("* Buy($)      - Buy will allow you to purchase an item (You can buy items in towns and shops)")
+    print ("* Pick-up(pick) - You will come across items that you can pick up and carry on your character")
+    print ("~ You will be reminded of these commands as well, but this is here for those of you who want a heads up :)")
+
 
 def licensing():
     os.system('clear')
     print ('''
-  GNU GENERAL PUBLIC LICENSE
+               GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
