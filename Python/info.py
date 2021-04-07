@@ -4,7 +4,6 @@ import random
 import math
 
 def gameInfo():
-    os.system('clear')
     print ("What info would you like to see?")
     print ("----------------------")
     print ("| 1.) Commands       |")
@@ -42,8 +41,27 @@ def commands():
     print ("** Mana(ma)   - Mana will put you into the Mana menu so you can select a mana attack or ablity")
     print ("* Block(bl)   - Block will allow the user to use one of their turns to block an incoming attack")
     print ("* Buy($)      - Buy will allow you to purchase an item (You can buy items in towns and shops)")
-    print ("* Pick-up(pick) - You will come across items that you can pick up and carry on your character")
-    print ("~ You will be reminded of these commands as well, but this is here for those of you who want a heads up :)")
+    print ("* Pick-up(pick) - You will come across items that you can pick up and carry on your character\n")
+    print ("~ You will be reminded of these commands as well, but this is here for those of you who want a heads up :)\n\n")
+    print("What would you like to do?\n")
+    print("---------------------------")
+    print("| 1.) Back to title screen |")
+    print("| 2.) View Licening        |")
+    print("| 3.) Exit game            |")
+    print("----------------------------")
+    selction = input(">>> ")
+    if selection == 1:
+        os.system('clear')
+        main()
+    elif selection == 2:
+        os.system('clear')
+        licensing()
+    elif selction == 3:
+        os.clear('clear')
+        exit()
+    else:
+        print("Please enter a valid input\n")
+        commands()
 
 
 def licensing():

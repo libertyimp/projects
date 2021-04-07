@@ -17,7 +17,8 @@ def main():
     if selection == 1:
        startGame() # MAKE startGame function
     elif selection == 2:
-        gameInfo() # MAKE gameInfo function
+        os.system('clear')
+        gameInfo()
     elif selection == 3:
         exit()
             
