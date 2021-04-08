@@ -2,6 +2,7 @@ import sys
 import os
 import random
 import math
+from starter import *
 
 def gameInfo():
     print ("What info would you like to see?")
@@ -49,7 +50,7 @@ def commands():
     print("| 2.) View Licening        |")
     print("| 3.) Exit game            |")
     print("----------------------------")
-    selction = input(">>> ")
+    selction = input(">> ")
     if selection == 1:
         os.system('clear')
         main()
@@ -742,3 +743,22 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 ''')
+    print("What would you like to do?\n")
+    print("---------------------------")
+    print("| 1.) Back to title screen |")
+    print("| 2.) View commands        |")
+    print("| 3.) Exit game            |")
+    print("----------------------------")
+    selction = input(">> ")
+    if selection == 1:
+        os.system('clear')
+        main()
+    elif selection == 2:
+        os.system('clear')
+        commands()
+    elif selction == 3:
+        os.clear('clear')
+        exit()
+    else:
+        print("Please enter a valid input\n")
+        licensing()
