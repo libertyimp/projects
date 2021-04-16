@@ -52,7 +52,4 @@ int main(){
         default:
             printf("Please enter a valid operation");
     }
-
-
-
 }
