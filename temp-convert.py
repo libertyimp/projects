@@ -1,5 +1,5 @@
-import os
-import sys
+# A simple python script that allows the user to convert Celsius to Fahrenhit or Vise-Versa
+
 
 
 choice = input("Will you be converting\n1.) C - F\nor\n2.) F - C\n >> ")
