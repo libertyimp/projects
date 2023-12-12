@@ -1,9 +1,5 @@
 // This is a calculator program written in C, the goal of this program is to solve
 // mathmatical problems for the user of the program.
-//
-// Licence: GNU Public License Version 3+ (and later)
-// BY: Korey Moffett
-// DATE: Fri, Feb 05
 
 #include <stdio.h>
 #include <stdlib.h>
